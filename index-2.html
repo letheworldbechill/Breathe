@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>4-6-8 Atemübung</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">4-6-8 Atemübung</h1>
+    <div class="circle-container">
+      <div class="circle" id="circle"></div>
+    </div>
+    <div class="instructions" id="instructions">Bereit?</div>
+    <div class="countdown" id="countdown"></div>
+    <div class="motivation" id="motivation"></div>
+    <button id="startButton" class="start-button">Starten</button>
+    <button id="settingsButton" class="settings-button">Einstellungen</button>
+    <button id="darkModeToggle" class="darkmode-button">Dunkelmodus</button>
+  </div>
+
+  <div class="settings-page" id="settingsPage">
+    <h1>Einstellungen</h1>
+    <label>Einatmen (Sek.): <input type="number" id="inhaleTime" value="4"></label>
+    <label>Halten (Sek.): <input type="number" id="holdTime" value="6"></label>
+    <label>Ausatmen (Sek.): <input type="number" id="exhaleTime" value="8"></label>
+    <button id="saveSettings" class="save-button">Speichern</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
